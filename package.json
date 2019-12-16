@@ -1,0 +1,27 @@
+{
+  "name": "node-basics",
+  "version": "0.0.1",
+  "description": "Node learning project",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r2bapps/node-basics.git"
+  },
+  "keywords": [
+    "node",
+    "learning",
+    "express"
+  ],
+  "author": "R2B Apps",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/r2bapps/node-basics/issues"
+  },
+  "homepage": "https://github.com/r2bapps/node-basics#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
