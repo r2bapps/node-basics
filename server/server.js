@@ -40,6 +40,18 @@ app.post('/comment', async function(req, res) {
   res.send(`Comment ${req.body.title} received`);
 });
 
+// App responds on '/comment' path when PUT method
+// Test it with POST comment on POSTMAN collections (change to PUT)
+app.put('/comment', async function(req, res) {
+  res.send(`ok`);
+});
+
+// App responds on '/comment' path when DELETE method
+// Test it with POST comment on POSTMAN collections (change to DELETE)
+app.delete('/comment', async function(req, res) {
+  res.send(`ok`);
+});
+
 // App is listening on localhost and defined env port or 8080 by default
 app.listen(port = process.env.PORT || 8080, function () {
   console.log(`Server running on http://localhost:${port}`);
